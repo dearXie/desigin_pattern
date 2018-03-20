@@ -12,4 +12,6 @@ package com.xieq.designPattern.visitor;
  * @author xieq
  */
 public class Test {
+
+
 }
