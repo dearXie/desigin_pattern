@@ -7,6 +7,7 @@ package com.xieq.designPattern.visitor.demo3;
  * @author xieq
  */
 public class ClientTest {
+
     public static void main(String[] args) {
         ObjectStructure o = new ObjectStructure();
 
@@ -19,6 +20,5 @@ public class ClientTest {
         o.display(visitorA);
         VisitorB visitorB = new VisitorB();
         o.display(visitorB);
-
     }
 }
